@@ -152,6 +152,6 @@ public class BasicApplicationTests extends AbstractIntegrationTest {
     }
 
     private Invoice createEntitywithDefaults() {
-        return new Invoice(1L, 1, "Jhon", "Service Invoice", 3000);
+        return new Invoice(1L, 1, "Oscar", "Service Invoice", 3000);
     }
 }
