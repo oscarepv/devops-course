@@ -38,7 +38,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 /**
  *
- * @author sotobotero
+ * @author sotobotero-ude
  */
 @Tag(name = "Billing API", description = "This APi serve all functionality for management Invoices")
 @RestController
