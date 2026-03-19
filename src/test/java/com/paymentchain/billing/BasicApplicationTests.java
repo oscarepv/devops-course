@@ -109,7 +109,7 @@ public class BasicApplicationTests extends AbstractIntegrationTest {
         long defaultId = 1;
         Invoice dto = new Invoice();
         dto.setCustomerId(defaultId);
-        dto.setNumber("0987654321");
+        dto.setNumber("123456789");
 
         when(invoiceRepository.findById(defaultId)).thenReturn(Optional.of(dto));
         when(invoiceRepository.save(dto)).thenReturn(dto);
