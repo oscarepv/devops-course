@@ -44,3 +44,7 @@ choose the correct port that you see on log at startup process
 
 export RDSHOST="oddo-server.c72ak2e6i9w5.us-east-1.rds.amazonaws.com" 
 psql "host=$RDSHOST port=5432 dbname=odoo user=odoo sslmode=verify-full sslrootcert=./global-bundle.pem"
+
+
+export RDSHOST="book.c72ak2e6i9w5.us-east-1.rds.amazonaws.com" 
+psql "host=$RDSHOST port=5432 dbname=books user=postgres sslmode=verify-full sslrootcert=./global-bundle.pem"
