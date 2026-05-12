@@ -41,3 +41,6 @@ for local use:
 4. Open your browser and go to url: http://localhost:7080/swagger-ui/index.html
 choose the correct port that you see on log at startup process
 
+
+export RDSHOST="oddo-server.c72ak2e6i9w5.us-east-1.rds.amazonaws.com" 
+psql "host=$RDSHOST port=5432 dbname=odoo user=odoo sslmode=verify-full sslrootcert=./global-bundle.pem"
